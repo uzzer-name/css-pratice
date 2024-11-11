@@ -1,0 +1,42 @@
+/* Скидання стилів за замовчуванням */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 30vh;
+    background-color: #4CAF50; /* Зелений */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.main {
+    height: 40vh;
+    background-color: #2196F3; /* Синій */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    height: 30vh;
+    background-color: #FF5722; /* Помаранчевий */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.text {
+    font-size: 20px; /* Розмір шрифту */
+    color: white; /* Колір тексту */
+    padding: 10px; /* Внутрішні відступи */
+}
